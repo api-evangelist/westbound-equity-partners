@@ -1,8 +1,25 @@
 aid: westbound-equity-partners
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westbound-equity-partners.png
 name: Westbound Equity Partners
-description: 'Westbound Equity Partners is a company surfaced as a portfolio company of foundry-group
-  and added to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Westbound Equity Partners is a venture capital firm that invests financial and social
+  capital into values-aligned founding teams, aiming to build a virtuous cycle of wealth and opportunity.
+  The firm backs ventures across workplace equity and wealth-building, climate tech and decarbonization,
+  AI and advanced technology, and social impact, and supports founders through the Westbound Network of
+  entrepreneurs, operators, and investors plus culture coaching and talent services. Portfolio companies
+  include Esusu, Planet FWD, Syndio, Sierra, Mon Ami, The Browser Company, Conduit Tech, Manas AI, and
+  Laborup. Surfaced as a portfolio company of foundry-group. Westbound publishes a marketing and careers
+  website but no public developer or API program.'
 url: https://raw.githubusercontent.com/api-evangelist/westbound-equity-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Venture Capital
+- Investment
+- Climate Tech
+- Artificial Intelligence
+- Social Impact
+- Workplace Equity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,14 @@ maintainers:
 common:
 - type: Website
   url: https://westboundequity.com
+- type: Support
+  url: https://westboundequity.com/contact-us/
+- type: PrivacyPolicy
+  url: https://westboundequity.com/privacy-policy/
+- type: DomainSecurity
+  url: security/westbound-equity-partners-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
